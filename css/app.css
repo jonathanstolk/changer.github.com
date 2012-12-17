@@ -1,37 +1,97 @@
 
+/*
+================================================
+  Generic
+================================================
+*/
+
 body {
   font-family:"Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 23px;
 }
 
-header, .front {
-  margin-top: 30px;
+a, .blue {
+  color: #63D5F6;
+}
+
+header {
+  margin: 30px 0 20px 0;
 }
 
 .front {
-  text-align: center;
+  margin-top: 20px;
 }
 
-.tagline {
-  margin-bottom: 20px;
-  font-size: 45px;
+.wrapper {
+  background: #f9f9f9;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 10px;
+  border-top: 1px solid #eee;
+}
+
+h3 {
   font-weight: 400;
-  padding: 20px 0px;
+  font-style: normal;
+  color: #000;
 }
 
-.description {
+h2 {
+  font-weight: 400;
+  font-style: normal;
+  color: #000;
+}
+
+/*
+================================================
+  Front page
+================================================
+*/
+
+.front .tagline {
+  margin-bottom: 10px;
+  font-size: 34px;
+  line-height: 35px;
+  font-weight: 400;
+  padding: 10px 0px;
+  text-align: center;
+  color: #333;
+}
+
+.front .description {
   font-size: 16px;
   line-height: 28px;
+  text-align: center;
+  color: #777;
 }
+
+.marketing {
+  color: #555;
+}
+
+/*
+================================================
+  Footer
+================================================
+*/
 
 footer {
   background: #F9F9F9;
 }
 
-ul.menu {
+
+
+/*
+================================================
+  Header
+================================================
+*/
+
+header ul.menu {
   text-align: right;
 }
 
-ul.menu li {
+header ul.menu li {
   display: inline;
   list-style-type: none;
   margin-left: 20px;
@@ -39,10 +99,102 @@ ul.menu li {
   border-bottom: 1px solid #63D5F6;
 }
 
-ul.menu li a {
+header ul.menu li a {
   font-size: 16px;
 }
 
-ul.menu li a:hover {
+header ul.menu li a:hover, header ul.menu li.active a {
+  font-size: 16px;
+  color: #000;
+}
+
+header ul.menu li:hover, header ul.menu li.active {
+  border-bottom: 1px solid #000;
+}
+
+header ul.menu li a:hover {
   text-decoration: none;
 }
+
+
+
+/*
+================================================
+  Sidebar
+================================================
+*/
+
+.sidebar ul.menu li {
+  list-style-type: none;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.sidebar ul.menu li:last-child {
+  border-bottom: 0;
+}
+
+.sidebar ul.menu li a {
+  font-size: 16px;
+}
+
+.sidebar ul.menu li a:hover {
+  text-decoration: none;
+}
+
+
+
+/*
+================================================
+  About
+================================================
+*/
+
+section.about {
+  margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
