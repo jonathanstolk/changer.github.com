@@ -1,0 +1,48 @@
+
+body {
+  font-family:"Open Sans","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+header, .front {
+  margin-top: 30px;
+}
+
+.front {
+  text-align: center;
+}
+
+.tagline {
+  margin-bottom: 20px;
+  font-size: 45px;
+  font-weight: 400;
+  padding: 20px 0px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 28px;
+}
+
+footer {
+  background: #F9F9F9;
+}
+
+ul.menu {
+  text-align: right;
+}
+
+ul.menu li {
+  display: inline;
+  list-style-type: none;
+  margin-left: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #63D5F6;
+}
+
+ul.menu li a {
+  font-size: 16px;
+}
+
+ul.menu li a:hover {
+  text-decoration: none;
+}
