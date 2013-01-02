@@ -28,6 +28,7 @@ header {
   border-bottom: 1px solid #eee;
   margin-bottom: 10px;
   border-top: 1px solid #eee;
+  /*box-shadow: 0 0px 1px #333;*/
 }
 
 h3 {
@@ -69,7 +70,6 @@ h2 {
   color: #555;
   margin-top: 10px;
 }
-
 
 
 /*
