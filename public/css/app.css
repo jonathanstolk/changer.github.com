@@ -160,6 +160,7 @@ section.about, section.products, section.contact {
 .team img {
   border-radius:10px;
   margin: 10px 10px;
+  height: 150px;
 }
 
 .team .span2 {
