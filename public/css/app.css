@@ -43,6 +43,14 @@ h2 {
   color: #000;
 }
 
+li {
+  line-height: 23px;
+}
+
+.tright {
+  text-align: right;
+}
+
 /*
 ================================================
   Front page
@@ -150,8 +158,23 @@ section.about, section.products, section.contact {
 }
 
 
+/*
+================================================
+  Products page
+================================================
+*/
 
+.browsered .inner {
+  background: url("https://a248.e.akamai.net/assets.github.com/images/modules/features/browsered_shadow.png?f9a57a8c") 0 100% no-repeat;
+  padding: 14px 16px 35px 13px;
+  line-height: 1px;
+}
 
+.browsered {
+  margin-bottom: -15px;
+  width: 460px;
+  background: url("https://a248.e.akamai.net/assets.github.com/images/modules/features/browsered_browser.png?e57512ba") 0 0 no-repeat;
+}
 
 
 /* Sticky footer styles
