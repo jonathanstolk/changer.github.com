@@ -157,6 +157,16 @@ section.about, section.products, section.contact {
   margin-top: 40px;
 }
 
+.team img {
+  border-radius:10px;
+  margin: 10px 10px;
+}
+
+.team .span2 {
+  width: 150px;
+  height: 195px;
+}
+
 
 /*
 ================================================
