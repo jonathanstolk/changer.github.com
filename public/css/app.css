@@ -22,8 +22,20 @@ header {
   margin-top: 20px;
 }
 
+.tagline{
+  text-align: left;
+  font-size: 60px;
+}
+
 .wrapper {
-  background: #f9f9f9;
+  background: #00ade4; /* Old browsers */
+  background: -moz-linear-gradient(left, #00ade4 0%, #0ce5ff 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%,#00ade4), color-stop(100%,#0ce5ff)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* IE10+ */
+background: linear-gradient(to right, #00ade4 0%,#0ce5ff 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ade4', endColorstr='#0ce5ff',GradientType=1 ); /* IE6-9 */
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
   margin-bottom: 10px;
