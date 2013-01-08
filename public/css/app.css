@@ -10,16 +10,36 @@ body {
   line-height: 23px;
 }
 
-a, .blue {
-  color: #63D5F6;
+h1, h2, h3, h4{
+  font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
+}
+
+a{
+  font-weight: 200;
+  border-bottom: 1px dashed #00ade4;
+  color: #00ade4;
+  font-size: 16px;
+}
+
+a:hover{
+  text-decoration: none;
+  border-bottom: 1px dashed #1d6193;
+}
+
+hr{
+  border-top: 1px dashed white;
+  border-bottom: none;
 }
 
 header {
-  margin: 30px 0 20px 0;
+  margin: 10px 0 10px 0;
 }
 
 .front {
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-top: 20px;
+  background: url("../img/devices.png") no-repeat right bottom;
 }
 
 .tagline{
@@ -27,26 +47,24 @@ header {
   font-size: 60px;
 }
 
-.wrapper {
+.header-wrap {
   background: #00ade4; /* Old browsers */
   background: -moz-linear-gradient(left, #00ade4 0%, #0ce5ff 100%); /* FF3.6+ */
   background: -webkit-gradient(linear, left top, right top, color-stop(0%,#00ade4), color-stop(100%,#0ce5ff)); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* IE10+ */
-background: linear-gradient(to right, #00ade4 0%,#0ce5ff 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ade4', endColorstr='#0ce5ff',GradientType=1 ); /* IE6-9 */
+  background: -webkit-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(left, #00ade4 0%,#0ce5ff 100%); /* IE10+ */
+  background: linear-gradient(to right, #00ade4 0%,#0ce5ff 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ade4', endColorstr='#0ce5ff',GradientType=1 ); /* IE6-9 */
   padding-bottom: 20px;
-  border-bottom: 1px solid #eee;
-  margin-bottom: 10px;
-  border-top: 1px solid #eee;
   /*box-shadow: 0 0px 1px #333;*/
 }
 
 h3 {
   font-weight: 400;
   font-style: normal;
-  color: #000;
+  color: #555;
+  font-size: 36px;
 }
 
 h2 {
@@ -63,6 +81,20 @@ li {
   text-align: right;
 }
 
+.tcenter {
+  text-align: center;
+}
+
+.content-wrap{
+  padding-top: 20px;
+  border-top: 1px solid white;
+  min-height: 100%;
+}
+
+.logo, .logo:hover{
+  border: none;
+}
+
 /*
 ================================================
   Front page
@@ -70,20 +102,27 @@ li {
 */
 
 .front .tagline {
+  font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
+  color: #caf1fa;
   margin-bottom: 10px;
-  font-size: 34px;
-  line-height: 35px;
+  font-size: 50px;
+  line-height: 60px;
   font-weight: 400;
   padding: 10px 0px;
-  text-align: center;
-  color: #333;
+}
+
+.front .tagline span{
+  font-size: 80px;
+  color: white;
+  font-weight: 600;
 }
 
 .front .description {
   font-size: 16px;
   line-height: 28px;
-  text-align: center;
-  color: #777;
+  text-align: left;
+  color: #555;
+  width: 400px;
 }
 
 .marketing {
@@ -91,32 +130,64 @@ li {
   margin-top: 10px;
 }
 
+.product-description{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.product-description h4{
+  font-family: "Open Sans", "Helvetica", Arial, sans-serif;
+  color: #555;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.product-logo{
+  margin-top: 20px;
+}
+
+.project-list{
+  list-style: none;
+  margin-left: 0;
+  font-family: "Open Sans", "Helvetica", Arial, sans-serif;
+  color: #555;
+  font-weight: 200;
+  font-size: 24px;
+}
+
+.project-list li{
+  margin-top: 20px;
+}
 
 /*
 ================================================
   Header
 ================================================
 */
+.header-wrap{
+  background: black;
+}
 
 header ul.menu {
   text-align: right;
+  margin: 0 0 0 25px;
 }
 
 header ul.menu li {
   display: inline;
   list-style-type: none;
-  margin-left: 20px;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #63D5F6;
+  margin-left: 50px;
 }
 
 header ul.menu li a {
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: 200;
+  border-bottom: none;
 }
 
 header ul.menu li a:hover, header ul.menu li.active a {
-  font-size: 16px;
-  color: #000;
+  font-size: 14px;
+  color: white;
 }
 
 header ul.menu li:hover, header ul.menu li.active {
@@ -125,6 +196,22 @@ header ul.menu li:hover, header ul.menu li.active {
 
 header ul.menu li a:hover {
   text-decoration: none;
+}
+
+.blue a{
+  color: #00ade4;
+}
+
+.darkblue, .darkblue a{
+  color: #1d6193;
+}
+
+.green, .green a{
+  color: #72b52b;
+}
+
+.brown a{
+  color: #8e7e70;
 }
 
 
@@ -136,13 +223,12 @@ header ul.menu li a:hover {
 */
 
 .sidebar ul.menu {
-
+  margin: 0 0 0 0;
 }
 
 .sidebar ul.menu li {
   list-style-type: none;
   padding: 12px 0;
-  border-bottom: 1px solid #eee;
 }
 
 .sidebar ul.menu li:last-child {
@@ -151,6 +237,7 @@ header ul.menu li a:hover {
 
 .sidebar ul.menu li a {
   font-size: 16px;
+  font-weight: 200;
 }
 
 .sidebar ul.menu li a:hover {
@@ -180,14 +267,77 @@ section.about, section.products, section.contact {
   height: 195px;
 }
 
+.expertise{
+  color: #00ade4;
+}
+
+.team-spacer{
+  margin-left: 80px;
+}
+
+.row-teammember{
+  margin-top: 40px;
+}
+
+.row-teammember h4{
+  margin: 0;
+}
+
+.about h3{
+}
+
+.about h2{
+  font-size: 44px;
+  color: #555;
+}
+
+.project-row{
+  margin-top: 50px;
+}
+
+
+.project-tagline{
+  display: block;
+  line-height: 30px;
+  font-size: 24px;
+  color: #00ade4;
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.project-date{
+  display: block;
+  font-size: 12px;
+  font-weight: 200;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+
 
 /*
 ================================================
   Products page
 ================================================
 */
+.products {
+  margin-top: 40px;
+}
 
-.browsered .inner {
+.products h3{
+  color: #00ade4;
+}
+
+.products h2{
+  font-size: 44px;
+  color: #555;
+}
+
+.product-row{
+  margin-top: 50px;
+}
+
+/*.browsered .inner {
   background: url("https://a248.e.akamai.net/assets.github.com/images/modules/features/browsered_shadow.png?f9a57a8c") 0 100% no-repeat;
   padding: 14px 16px 35px 13px;
   line-height: 1px;
@@ -197,7 +347,7 @@ section.about, section.products, section.contact {
   margin-bottom: -15px;
   width: 460px;
   background: url("https://a248.e.akamai.net/assets.github.com/images/modules/features/browsered_browser.png?e57512ba") 0 0 no-repeat;
-}
+}*/
 
 
 /* Sticky footer styles
@@ -216,6 +366,8 @@ body {
   height: 100%;
   /* Negative indent footer by it's height */
   margin: 0 auto -60px;
+  background: url("../img/texture.png");
+  background: #f5f5f5;
 }
 
 /* Set the fixed height of the footer here */
