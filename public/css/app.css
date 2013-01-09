@@ -134,6 +134,10 @@ li {
   font-size: 24px;
 }
 
+.product-description a{
+  border-bottom: none;
+}
+
 .product-logo{
   margin-top: 20px;
 }
@@ -281,6 +285,10 @@ header ul.menu li a:hover {
 section.about, section.products, section.contact {
 }
 
+.about hr{
+  border-bottom: 1px dashed #00ade4;
+}
+
 .about-header{
   margin-top: 40px;
 }
@@ -322,6 +330,7 @@ section.about, section.products, section.contact {
 
 .project-row{
   margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 
