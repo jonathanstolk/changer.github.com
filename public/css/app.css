@@ -56,7 +56,7 @@ h3 {
 h2 {
   font-weight: 400;
   font-style: normal;
-  color: #000;
+  color: #555;
 }
 
 li {
@@ -134,10 +134,6 @@ li {
   font-size: 24px;
 }
 
-.product-description a{
-  border-bottom: none;
-}
-
 .product-logo{
   margin-top: 20px;
 }
@@ -153,6 +149,10 @@ li {
 
 .project-list li{
   margin-top: 20px;
+}
+
+.logo-small{
+  border-bottom: none;
 }
 
 /*
@@ -386,6 +386,10 @@ section.about, section.products, section.contact {
   margin-bottom: 10px;
 }
 
+.product-screen {
+  margin-top: 50px;
+}
+
 /*.browsered .inner {
   background: url("https://a248.e.akamai.net/assets.github.com/images/modules/features/browsered_shadow.png?f9a57a8c") 0 100% no-repeat;
   padding: 14px 16px 35px 13px;
@@ -407,7 +411,7 @@ section.about, section.products, section.contact {
 .contact{}
 
 .contact h2{
-  color:  #caf1fa;
+  color:  white;
   font-size: 44px;
 }
 
