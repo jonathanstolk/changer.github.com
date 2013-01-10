@@ -151,8 +151,13 @@ li {
   margin-top: 20px;
 }
 
-.logo-small{
+.logo-small, .logo-small:hover{
   border-bottom: none;
+}
+
+.portfolio-link, .portfolio-link a{
+  font-size: 24px;
+  font-weight: 100;
 }
 
 /*
@@ -421,6 +426,18 @@ section.about, section.products, section.contact {
 
 .row-contact{
   margin-top: 50px;
+}
+
+.address{
+  list-style: none;
+  margin-left: 0;
+}
+
+.address .address-header{
+  font-size: 24px;
+  font-weight: 100;
+  color: #00ade4;
+  line-height: 30px;
 }
 
 /* Sticky footer styles
