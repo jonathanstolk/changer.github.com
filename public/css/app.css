@@ -1,3 +1,8 @@
+/*
+================================================
+  Bootstrap overrides
+================================================
+*/
 
 /*
 ================================================
@@ -29,10 +34,6 @@ a:hover{
 hr{
   border-top: 1px dashed #ffffff;
   border-bottom: none;
-}
-
-header {
-  margin: 10px 0 10px 0;
 }
 
 .front {
@@ -73,7 +74,9 @@ li {
 }
 
 .logo, .logo:hover{
+  display: block;
   border: none;
+  margin-top: 10px;
 }
 
 /*
@@ -87,7 +90,7 @@ li {
   padding: 20px 0px;
 }
 
-.front .tagline h1{
+.tagline h1{
   font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
   font-size: 80px;
   color: #ffffff;
@@ -95,7 +98,7 @@ li {
   line-height: 70px;
 }
 
-.front .tagline h1 small{
+.tagline h1 small{
   font-weight: 400;
   color: #caf1fa;
   margin-bottom: 10px;
@@ -103,7 +106,7 @@ li {
   line-height: 50px;
 }
 
-.front .description{
+.description{
   font-size: 16px;
   line-height: 28px;
   text-align: left;
@@ -171,35 +174,36 @@ li {
   min-width: 960px;
 }
 
-header ul.menu {
+ul.menu {
   text-align: right;
   margin: 0 0 0 25px;
   list-style: none;
   clear: both;
+  float: left;
 }
 
-header ul.menu li {
-  display: inline;
-  margin-left: 50px;
-  float: right;
+ul.menu li {
+  float: left;
 }
 
-header ul.menu li a {
+ul.menu li a {
+  display: block;
+  padding: 10px 30px 10px 30px;
   font-size: 14px;
   font-weight: 200;
   border-bottom: none;
 }
 
-header ul.menu li a:hover, header ul.menu li.active a {
+ul.menu li a:hover, ul.menu li.active a {
   font-size: 14px;
   color: #ffffff;
 }
 
-header ul.menu li:hover, header ul.menu li.active {
-  border-bottom: 1px solid #000;
+ul.menu li:hover, header ul.menu li.active {
+  background: #2d2d2d;
 }
 
-header ul.menu li a:hover {
+ul.menu li a:hover {
   text-decoration: none;
 }
 
@@ -334,11 +338,6 @@ section.about, section.products, section.contact {
 .about h3{
 }
 
-.about h2{
-  font-size: 44px;
-  color: #ffffff;
-}
-
 .project-row{
   margin-top: 50px;
   margin-bottom: 50px;
@@ -366,6 +365,11 @@ section.about, section.products, section.contact {
   line-height: 72px;
 }
 
+.pageheader{
+  font-size: 44px;
+  color: #ffffff;
+}
+
 
 
 /*
@@ -378,11 +382,6 @@ section.about, section.products, section.contact {
 
 .products h3{
   color: #555;
-}
-
-.products h2{
-  font-size: 44px;
-  color: #ffffff;
 }
 
 .product-row{
@@ -420,11 +419,6 @@ section.about, section.products, section.contact {
 */
 
 .contact{}
-
-.contact h2{
-  color:  #ffffff;
-  font-size: 44px;
-}
 
 .contact h3{
   font-weight: 100;
