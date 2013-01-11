@@ -167,6 +167,8 @@ li {
 */
 .header-wrap{
   background: black;
+  width:100%;
+  min-width: 960px;
 }
 
 header ul.menu {
@@ -232,6 +234,8 @@ header ul.menu li a:hover {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ade4', endColorstr='#0ce5ff',GradientType=1 ); /* IE6-9 */
   padding-bottom: 10px;
   padding-top: 50px;
+  width: 100%;
+  min-width: 960px;
   /*box-shadow: 0 0px 1px #333;*/
 }
 
@@ -459,6 +463,8 @@ body {
   background: url("../img/texture.png");
   background: #f5f5f5;
   padding-bottom: 50px;
+  width: 100%;
+  min-width: 960px;
 }
 
 /* Set the fixed height of the footer here */
