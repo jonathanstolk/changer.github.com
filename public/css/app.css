@@ -82,21 +82,25 @@ li {
 ================================================
 */
 
-.front .tagline {
+.front .tagline{
   text-align: left;
-  font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
-  color: #caf1fa;
-  margin-bottom: 10px;
-  font-size: 50px;
-  line-height: 60px;
-  font-weight: 400;
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 
-.front .tagline span{
+.front .tagline h1{
+  font-family: "Century Gothic", "Helvetica", Arial, sans-serif;
   font-size: 80px;
   color: #ffffff;
   font-weight: 600;
+  line-height: 70px;
+}
+
+.front .tagline h1 small{
+  font-weight: 400;
+  color: #caf1fa;
+  margin-bottom: 10px;
+  font-size: 50px;
+  line-height: 50px;
 }
 
 .front .description{
@@ -174,8 +178,9 @@ header ul.menu {
 
 header ul.menu li {
   display: inline;
-  list-style-type: none;
+  list-style: none;
   margin-left: 50px;
+  float: right;
 }
 
 header ul.menu li a {
@@ -229,7 +234,7 @@ header ul.menu li a:hover {
   background: linear-gradient(to right, #00ade4 0%,#0ce5ff 100%); /* W3C */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ade4', endColorstr='#0ce5ff',GradientType=1 ); /* IE6-9 */
   padding-bottom: 10px;
-  padding-top: 50px;
+  padding-top: 30px;
   width: 100%;
   min-width: 960px;
   /*box-shadow: 0 0px 1px #333;*/
