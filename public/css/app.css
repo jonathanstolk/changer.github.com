@@ -260,32 +260,32 @@ ul.menu li a:hover {
 ================================================
 */
 
-.sidebar ul.menu {
+ul.submenu {
   margin: 0 0 50px 0;
   clear: both;
 }
 
-.sidebar ul.menu li {
+ul.submenu li {
   list-style-type: none;
   float: left;
   margin-left: 50px;
 }
 
-.sidebar ul.menu li:first-child {
+ul.submenu li:first-child {
   margin-left: 0;
 }
 
-.sidebar ul.menu li:last-child {
+ul.submenu li:last-child {
   border-bottom: 0;
 }
 
-.sidebar ul.menu li a {
+ul.submenu li a {
   font-size: 16px;
   color: #ffffff;
   border-bottom: 1px dashed #ffffff;
 }
 
-.sidebar ul.menu li a:hover {
+ul.submenu li a:hover {
   text-decoration: none;
 }
 
