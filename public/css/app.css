@@ -174,11 +174,12 @@ li {
 header ul.menu {
   text-align: right;
   margin: 0 0 0 25px;
+  list-style: none;
+  clear: both;
 }
 
 header ul.menu li {
   display: inline;
-  list-style: none;
   margin-left: 50px;
   float: right;
 }
